@@ -13,5 +13,6 @@ int main(){
 		printf("%d",depiler(p)->val);
 		affichePile(p);
 	}
+	free(p);
 	return 0;
 }
